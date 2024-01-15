@@ -7,7 +7,8 @@ class AuthController {
 			attributes: [
 				'name',
 				'email',
-				'role'
+				'role',
+				'id'
 			],
 			where: {
 				email, password
